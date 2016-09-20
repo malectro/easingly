@@ -1,0 +1,56 @@
+.bg {
+  padding-top: 20px;
+  flex: 1 0 auto;
+  justify-content: center;
+  background: rgb(250, 250, 250);
+}
+
+.scroll {
+  composes: page from 'src/styles/ui.css';
+}
+
+.feed {
+  flex: 1 0 0;
+  flex-flow: row wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+
+.curve {
+  position: relative;
+  flex: 1 0 0;
+  min-width: 300px;
+  margin: 1em;
+  flex-flow: column;
+}
+
+.name {
+
+}
+
+.graph {
+  height: 300px;
+  background: white;
+}
+
+.graphFront {
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.graphDot {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.2s;
+}
+

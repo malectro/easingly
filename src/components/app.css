@@ -1,0 +1,31 @@
+.top {
+  /* Font and Text Styles */
+  composes: text from 'src/styles/fonts.css';
+  display: flex;
+  flex-flow: column;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.header {
+  position: relative;
+  z-index: 2;
+  background: white;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+  justify-content: center;
+}
+
+.headerContainer {
+  composes: page from 'src/styles/ui.css';
+  flex: 1 0 0;
+  justify-content: space-between;
+}
+
+.title {
+  composes: title from 'src/styles/fonts.css';
+  font-size: 20px;
+}
+
+.search {
+  display: none;
+}
+

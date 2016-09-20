@@ -1,0 +1,49 @@
+.section {
+  composes: title2 from 'src/styles/fonts.css';
+  font-weight: 400;
+  flex-flow: column;
+  margin-bottom: 40px;
+  font-size: 14px;
+}
+
+.section header {
+  flex-flow: column;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  color: rgba(0, 0, 0, 0.44);
+}
+.subtitle {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.entry {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  margin-right: 10px;
+  width: 32px;
+  height: 32px;
+  background: gray;
+  border-radius: 50%;
+}
+
+.text {
+  flex: 1 0 0;
+  flex-flow: column;
+  line-height: 1.2;
+}
+
+.storyTitle {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.storySubtitle {
+  color: rgba(0, 0, 0, 0.44);
+}
+

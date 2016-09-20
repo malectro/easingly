@@ -1,0 +1,8 @@
+
+@value pageWidth: 1000px;
+
+.page {
+  max-width: pageWidth;
+  margin: 0 20px;
+}
+
